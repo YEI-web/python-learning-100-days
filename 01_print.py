@@ -13,3 +13,6 @@ a
   c
    d 
     e''')
+print("Python")
+print("\tpython")
+print("Languages:\n\tPython\n\tC\n\tJavaScript")
