@@ -16,3 +16,15 @@ a
 print("Python")
 print("\tpython")
 print("Languages:\n\tPython\n\tC\n\tJavaScript")
+
+#删除空格
+favorite_language = " python "
+print(favorite_language)
+print(favorite_language.rstrip())#删除右端空格
+print(favorite_language.lstrip())#删除左端空格
+print(favorite_language.strip())#删除两端空格
+
+#删除前缀
+web="https://123456.com"
+print(web)
+print(web.removeprefix('https://') )
